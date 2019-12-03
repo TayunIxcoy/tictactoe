@@ -3,16 +3,15 @@
 
 
 
-
-
+let totalNumber=0
+let currentPlayer="x"
 $("#button1").click(function() {
     performLogic("#button1","#tile1");
 });
-
 $("#button2").click(function() {
     performLogic("#button2","#tile2");
 });
-
+let 
 $("#button3").click(function() {
     performLogic("#button3","#tile3");
 });
